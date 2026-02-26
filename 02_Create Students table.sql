@@ -10,7 +10,6 @@ Marks INT,
 Grade VARCHAR(2),
 CONSTRAINT PK_students Primary key(student_id)
 );
-
 Go
 
 Insert into students(Student_id,First_Name,Last_Name,Gender,Marks,Grade) values
@@ -29,9 +28,6 @@ Insert into students(Student_id,First_Name,Last_Name,Gender,Marks,Grade) values
 (13, 'Priya', 'Naik', 'Female', 89, 'A'),
 (14, 'Sanjay', 'Kulkarni', 'Male', 71, 'B'),
 (15, 'Lakshmi', 'Menon', 'Female', 55, 'D');
-
 Go
-
-
 
 select * from dbo.Students
