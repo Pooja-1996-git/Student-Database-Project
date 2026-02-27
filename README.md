@@ -1,2 +1,2 @@
 # Student-Database-Project
-SQL Practice for ETL &amp; Data Engineering
+SQL Practice for ETL Testing
