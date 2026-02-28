@@ -149,3 +149,21 @@ case
  End Expected_Grade
 from students
 )t
+
+--#LEVEL 4 – Aggregation & ETL Validation
+
+--15. Find average marks by Gender.
+select Gender, Avg(marks) Avg_marks_Gender
+from students
+Group by Gender
+
+
+--16.Find maximum and minimum marks in the table.
+Select Max(Marks) as Max_Marks,
+Min(Marks) as Min_Marks
+from students
+
+--17. Count students per Gender and Grade
+Select Gender, Grade, count(*) as Count_Per_Gender
+from students
+Group by Gender, Grade
